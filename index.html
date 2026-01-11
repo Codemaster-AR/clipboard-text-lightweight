@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClipBoard Light</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen flex items-center justify-center p-4">
+
+    <div class="max-w-md w-full glass rounded-3xl shadow-2xl overflow-hidden border border-white/20">
+        <!-- Header -->
+        <div class="p-8 text-center">
+            <div class="w-16 h-16 bg-indigo-600 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <i class="fas fa-clipboard-check text-white text-3xl"></i>
+            </div>
+            <h1 class="text-2xl font-bold text-gray-800">ClipBoard Light</h1>
+            <p class="text-gray-500 mt-2">Simplify your workflow</p>
+        </div>
+
+        <!-- Description Area (Replaced Input) -->
+        <div class="px-8 pb-8 text-center">
+            <div class="p-6 bg-white/50 rounded-2xl border border-white/40 shadow-sm">
+                <p class="text-gray-700 text-lg leading-relaxed font-medium">
+                    The free app that notes down what you copy, offline and safe.
+                </p>
+            </div>
+            
+            <div class="mt-6 flex flex-col gap-3">
+                <div class="flex items-center gap-2 text-sm text-gray-600 justify-center">
+                    <i class="fas fa-shield-alt text-indigo-500"></i>
+                    <span>Private & Encryption Secured</span>
+                </div>
+                <div class="flex items-center gap-2 text-sm text-gray-600 justify-center">
+                    <i class="fas fa-wifi-slash text-indigo-500"></i>
+                    <span>100% Offline Functionality</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Download Section -->
+        <div class="p-8 bg-gray-50/50 border-t border-gray-100 flex flex-col items-center">
+            <p class="text-xs text-gray-400 uppercase tracking-widest mb-4">Latest Stable Release</p>
+            <a href="https://drive.google.com/file/d/11iPBf-x04vverxRsqW0B_eQFfB6ykSxN/view?usp=sharing" 
+               target="_blank"
+               class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 rounded-2xl shadow-lg transition-all flex items-center justify-center gap-3 group">
+                <i class="fas fa-download group-hover:bounce transition-transform"></i>
+                Download Now
+            </a>
+            <p class="mt-4 text-xs text-gray-400 text-center italic">
+                Ver 1.0.4 • Free Forever
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
