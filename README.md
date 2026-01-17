@@ -24,3 +24,6 @@ A lightweight clipboard manager, designed for simplicity and ease of use. It's f
 
 Download Clipboard Text Lightweight for Mac from our GitHub page:
 [CodeMaster-AR/Clipboard-Text-Lightweight](https://github.com/CodeMaster-AR/Clipboard-Text-Lightweight)
+
+**Code:**
+https://github.com/Codemaster-AR/Clipboard
