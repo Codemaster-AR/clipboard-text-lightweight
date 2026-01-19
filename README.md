@@ -26,4 +26,4 @@ Download Clipboard Text Lightweight for Mac from our GitHub page:
 [CodeMaster-AR/Clipboard-Text-Lightweight](https://github.com/CodeMaster-AR/Clipboard-Text-Lightweight)
 
 **Code:**
-https://github.com/Codemaster-AR/Clipboard
+https://github.com/Codemaster-AR/Clipboard or [https://github.com/Codemaster-AR/clipboard-text-lightweight/releases/tag/v1.0.0](https://github.com/Codemaster-AR/clipboard-text-lightweight/releases/tag/v1.0.0)
